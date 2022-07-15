@@ -34,7 +34,7 @@ for (let i=0;i<hoursBlocks.length;i++){
     else if(currentBlock < time){
         currentBlock.classList.add("past")
     }  
-    else (currentBlock > time){
+    else {
         currentBlock.classList.add("future")
     }
 }
